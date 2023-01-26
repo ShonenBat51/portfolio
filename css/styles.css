@@ -60,3 +60,11 @@
     #artic_borde_abajo {
         padding-bottom: 1rem;
     }
+
+    .animate__fadeInRight {
+        animation-duration: 1s;
+      }
+
+    .animate__pulse {
+        animation-duration: 5s;
+    }
