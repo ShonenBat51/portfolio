@@ -56,3 +56,7 @@
     #derecha {
         justify-items: end !important;
     }
+
+    #artic_borde_abajo {
+        padding-bottom: 1rem;
+    }
