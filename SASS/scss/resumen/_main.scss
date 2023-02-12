@@ -1,0 +1,40 @@
+main {
+    height: 75vh;
+    .animate__fadeInRight {
+        animation-duration: 1s;
+        #fuentecolorfuerte {
+            color: $fucsia;
+        }
+      }
+
+      article {
+        #fuentecolorfuerte {
+            color: $fucsia;
+        }
+        #fuentecolorclaro {
+            color:rgb(200, 200, 200);
+            div {
+                #fuentecolorfuerte {
+                    color: $fucsia
+                }
+            }
+        }
+    }
+    section {
+        
+        #fuentecolorclaro {
+            color:rgb(200, 200, 200);
+        }
+        #textodetalle {
+            color:rgb(200, 200, 200);
+            padding-right: 1rem;
+            padding-left: 1rem;
+            text-align: right;
+            border-left: 5px solid $fucsia;
+        }
+        #derecha {
+            justify-items: end !important;
+        }
+            
+    }
+   }

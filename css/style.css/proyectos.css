@@ -1,0 +1,62 @@
+main section div .fondosnusi, main section div .fondotne {
+  background-image: url("../../images/snusi.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div .fondostudium {
+  background-image: url("../../images/studium.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div .fondobranding {
+  background-image: url("../../images/branding.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div .fondoplanos {
+  background-image: url("../../images/planos.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div .fondomueble {
+  background-image: url("../../images/mueble.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div .fondocodoacodo {
+  background-image: url("../../images/codoacodo.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div .fondorrss {
+  background-image: url("../../images/rrss.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div div .badgebutton {
+  background-color: #ff00b3;
+}
+main section div div .badgebutton:hover {
+  background-color: #7e0158;
+}/*# sourceMappingURL=proyectos.css.map */

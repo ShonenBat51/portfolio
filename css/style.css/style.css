@@ -1,0 +1,187 @@
+header {
+  height: 15vh;
+}
+header nav .animate__pulse {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+header nav div #fuentecolorfuerte {
+  color: #ff00b3;
+}
+header nav div .nav {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: #000000;
+  --bs-nav-link-hover-color: #ff00b3;
+  --bs-nav-link-disabled-color: rgba(158, 158, 158, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+header nav div #margen_negro_der {
+  border-right: 1px solid rgb(0, 0, 0);
+}
+
+main {
+  height: 75vh;
+}
+main div .animate__fadeInRight {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+main div section #fuentecolorclaro {
+  color: rgb(200, 200, 200);
+}
+main div section #fuentecolorfuerte {
+  color: #ff00b3;
+}
+main div section #textodetalle {
+  color: rgb(200, 200, 200);
+  padding-right: 1rem;
+  padding-left: 1rem;
+  text-align: right;
+  border-left: 5px solid #ff00b3;
+}
+main div section #derecha {
+  justify-items: end !important;
+}
+
+footer {
+  height: 5vh;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+footer ul #fuentecolorclaro {
+  color: rgb(51, 51, 51);
+}
+
+main {
+  height: 75vh;
+}
+main .animate__fadeInRight {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+main .animate__fadeInRight #fuentecolorfuerte {
+  color: #ff00b3;
+}
+main article #fuentecolorfuerte {
+  color: #ff00b3;
+}
+main article #fuentecolorclaro {
+  color: rgb(200, 200, 200);
+}
+main article #fuentecolorclaro div #fuentecolorfuerte {
+  color: #ff00b3;
+}
+main section #fuentecolorclaro {
+  color: rgb(200, 200, 200);
+}
+main section #textodetalle {
+  color: rgb(200, 200, 200);
+  padding-right: 1rem;
+  padding-left: 1rem;
+  text-align: right;
+  border-left: 5px solid #ff00b3;
+}
+main section #derecha {
+  justify-items: end !important;
+}
+
+main {
+  height: 75vh;
+}
+main section div .fondosnusi {
+  background-image: url("../../images/snusi.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div .fondotne {
+  background-image: url("../../images/tne.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div .fondostudium {
+  background-image: url("../../images/studium.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div .fondobranding {
+  background-image: url("../../images/branding.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div .fondoplanos {
+  background-image: url("../../images/planos.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div .fondomueble {
+  background-image: url("../../images/mueble.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div .fondocodoacodo {
+  background-image: url("../../images/codoacodo.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div .fondorrss {
+  background-image: url("../../images/rrss.jpg");
+  background-repeat: no-repeat;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+main section div div .badgebutton {
+  background-color: #ff00b3;
+}
+main section div div .badgebutton:hover {
+  background-color: #7e0158;
+}
+
+footer {
+  height: 5vh;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+footer ul #fuentecolorclaro {
+  color: rgb(51, 51, 51);
+}
+
+main article ul li .nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: #ff00b3;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+main div .flotante {
+  position: fixed;
+  margin-right: 2rem;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+main {
+    height: 75vh;
+    section{
+        div{
+        .fondosnusi {
+        background-image: url("../../images/snusi.jpg");
+        @include bordeimagen
+            }
+        .fondotne {
+        background-image: url("../../images/tne.jpg");
+        @include bordeimagen
+            }
+        .fondostudium {
+        background-image: url("../../images/studium.jpg");
+        @include bordeimagen
+            }
+        .fondobranding {
+        background-image: url("../../images/branding.jpg");
+        @include bordeimagen
+            }
+        .fondoplanos {
+        background-image: url("../../images/planos.jpg");
+        @include bordeimagen
+            }
+        .fondomueble {
+        background-image: url("../../images/mueble.jpg");
+        @include bordeimagen
+            }
+        .fondocodoacodo {
+        background-image: url("../../images/codoacodo.jpg");
+        @include bordeimagen
+            }
+        .fondorrss {
+        background-image: url("../../images/rrss.jpg");
+        @include bordeimagen
+            }
+            div {.badgebutton{
+                background-color: $fucsia;
+                &:hover {
+                    background-color: #7e0158;
+                }
+                
+                }
+            }
+        }
+    }
+
+}

@@ -4,45 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyectos y Experiencias de Trabajos">
+    <meta name="keywords" content="Proyectos, estudios, case study, desarrollo, diseño, ux, ui">
     <link
     rel="shortcut icon"
-    href="./assets/favicon.ico"
+    href="../assets/favicon.ico"
     type="image/x-icon" />
-    <link rel="stylesheet" href="../css/styles.css">
-    <title>AV Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="../css/style.css/style.css">
+    <title>AV Proyectos</title>
 </head>
-<body>
-<header> 
-    <nav>
-        <ul>
-            <h4 id="nombre">alejandro videla</h4>
-            <li><a id="bar1">Home</a></list>
-            <li><a id="bar2" href="./pages/Proyectos.html">Proyectos</a></li>
-            <li><a id="bar2" href="./pages/resumen.html">Resumen</a></li>
-            <li><a id="bar2" href="./pages/contacto.html">Contacto</a></li>
-        </ul>
+<body class="bg-black">
+<header class="container-fluid bg-light"> 
+    <nav class="row h-100 align-content-center">
+        <div class="col-sm-12 col-lg-4 d-flex justify-content-center align-content-center bg-light fs-3 fw-semibold h-50 animate__animated animate__pulse animate__infinite"> <a id="fuentecolorfuerte">a</a><a>lejandro videl</a><a id="fuentecolorfuerte">a <em>portfolio</em></a></div>
+
+        <div class="col-sm-12 col-lg-8 h-50 align-items-center">
+            <ul class="nav d-flex justify-content-sm-center justify-content-lg-end bg-light">
+                <li id= margen_negro_der class="nav-item ">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li id= margen_negro_der class="nav-item">
+                    <a class="nav-link disabled" href="#">Proyectos</a>
+                </li>
+                <li id= margen_negro_der class="nav-item">
+                  <a class="nav-link" href="./resumen.html">Resumen</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+              </ul>
+        </div>
     </nav>
 </header>
 
-<main id="MainP"> 
-    
-    <section id="Py1">Diseño Snusi.cl</section>
-    <section id="Py2">Rediseño TNE</section>
-    <section id="Py3">Diseño Studium</section>
-    <section id="Py4">Branding Snusi</section>
-    <section id="Py5">Render y Fotorrealismo</section>
-    <section id="Py6">Planos y Proyectos</section>
-    <section id="Py7">Proyecto de Título: Cowork</section>
+<main class="container">
+    <section class=" row h-50 align-items-center">
+        <div class="col-12 h-100">
+            <div   class="fondosnusi animate__animated animate__fadeInRight animate__delay-1s h-50 "> 
+                <a href="./snusi.html">
+                    <div class="badgebutton badge text-wrap" >Ver Proyecto Snusi</div>
+                    </a>
+            </div>
+            <div   class="fondotne animate__animated animate__fadeInRight animate__delay-2s h-50">
+                <a href="./tne.html">
+                    <div class="badgebutton badge text-wrap " >Ver Proyecto Resideño TNE</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 h-100 animate__animated animate__fadeInRight animate__delay-3s">
+            <div class="fondostudium h-50" >
+                <a href="./studium.html">
+                    <div class="badgebutton badge text-wrap" >Ver Proyecto Studium</div>
+                    </a>
+            </div>
+            <div class="fondobranding h-50">
+                <a href="./branding.html">
+                    <div class="badgebutton badge text-wrap" >Ver Branding Snusi</div>
+                    </a>
+            </div>
+        </div>
+        <div class="col-4 animate__animated animate__fadeInRight animate__delay-4s h-100 ">
+                <div class="fondoplanos h-50" >
+                    <a href="./planos.html">
+                        <div class="badgebutton badge text-wrap" >Ver Fotorrealismo</div>
+                        </a>
+                </div>
+                <div class="fondomueble h-50" >
+                    <a href="./muebles.html">
+                        <div class="badgebutton badge text-wrap" >Ver Desarrollo Muebles</div>
+                        </a>
+                </div>
+        </div>
+        <div class="col-4 animate__animated animate__fadeInRight animate__delay-5s h-100 ">
+                <div  class="fondocodoacodo h-50">
+                    <a href="./codoacodo.html">
+                        <div class="badgebutton badge text-wrap">Ver Proyecto CodoaCodo</div>
+                        </a>
+                </div>
+                <div  class="fondorrss h-50">
+                    <a href="./rrss.html">
+                        <div class="badgebutton badge text-wrap" >Ver Gráficas RRSS</div>
+                        </a>
+                </div>
+        </div>
 
+
+</section>
 </main>
-<footer>
-    <ul>
-        <li>Gracias por visitar mi página</li>
-        <li>Diseñador y Programado por: Alejandro Videla</li>
-        <li>Santiago de Chile, 2023</li>
-        <li><a href=mailto:alejandro.videla.t@gmail.com>Contacto: Alejandro.videla.t@gmail.com</a></li>
+
+<footer class="container-fluid">
+    <ul id="footer" class="row bg-black">
+        <div id="fuentecolorclaro">Diseñador y Programado por Alejandro Videla - 2023<div>
+        <div id="fuentecolorclaro"><a href=mailto:alejandro.videla.t@gmail.com>Contacto: Alejandro.videla.t@gmail.com</a></div>
     </ul> 
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

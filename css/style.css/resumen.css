@@ -1,0 +1,26 @@
+main {
+  height: 75vh;
+}
+main div .animate__fadeInRight {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+main div article #fuentecolorclaro {
+  color: rgb(200, 200, 200);
+}
+main div article section #fuentecolorclaro {
+  color: rgb(200, 200, 200);
+}
+main div article section #fuentecolorfuerte {
+  color: #ff00b3;
+}
+main div article section #textodetalle {
+  color: rgb(200, 200, 200);
+  padding-right: 1rem;
+  padding-left: 1rem;
+  text-align: right;
+  border-left: 5px solid #ff00b3;
+}
+main div article section #derecha {
+  justify-items: end !important;
+}/*# sourceMappingURL=resumen.css.map */

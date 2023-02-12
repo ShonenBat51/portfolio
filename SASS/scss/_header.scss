@@ -1,0 +1,32 @@
+header {
+    height: 15vh;
+    nav {
+        .animate__pulse {
+            animation-duration: 5s;
+        }
+        div {
+            #fuentecolorfuerte {
+                color: $fucsia;
+            }
+        }
+        div {
+                .nav {
+                    --bs-nav-link-padding-x: 1rem;
+                    --bs-nav-link-padding-y: 0.5rem;
+                    --bs-nav-link-font-weight: ;
+                    --bs-nav-link-color: #000000;
+                    --bs-nav-link-hover-color: #ff00b3;
+                    --bs-nav-link-disabled-color: rgba(158, 158, 158, 0.75);
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding-left: 0;
+                    margin-bottom: 0;
+                    list-style: none;
+                    }
+                #margen_negro_der{
+                    border-right: 1px solid rgb(0, 0, 0);
+                    }
+        }
+    }
+
+}
